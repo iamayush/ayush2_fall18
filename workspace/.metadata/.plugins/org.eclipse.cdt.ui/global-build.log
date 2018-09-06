@@ -1,0 +1,1539 @@
+
+**** Build of configuration Debug for project Lab0 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab0.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab0.d_raw"  "../user_Lab0.c"
+Finished building: "../user_Lab0.c"
+ 
+Building target: "Lab0.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab0.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab0_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab0.out" "./UARTFuncs.obj" "./user_Lab0.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab0.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab0 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab0 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab0.hex"  "Lab0.out" 
+DEL /F "UARTFuncs.obj" "user_Lab0.obj" 
+DEL /F "UARTFuncs.d" "user_Lab0.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab0 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab0ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab0ex3.d_raw"  "../user_Lab0ex3.c"
+Finished building: "../user_Lab0ex3.c"
+ 
+Building target: "Lab0.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab0.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab0_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab0.out" "./UARTFuncs.obj" "./user_Lab0ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab0.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab0 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+"../user_Lab1.c", line 23: warning: missing return statement at end of non-void function "switchstate"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+"../user_Lab1.c", line 23: warning: missing return statement at end of non-void function "switchstate"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab1.obj' failed
+"../user_Lab1.c", line 23: warning: missing return statement at end of non-void function "switchstate"
+"../user_Lab1.c", line 26: error: expected a declaration
+"../user_Lab1.c", line 47: warning: parsing restarts here after previous syntax error
+"../user_Lab1.c", line 65: error: expected a type specifier
+"../user_Lab1.c", line 65: error: expected a type specifier
+"../user_Lab1.c", line 65: warning: this declaration has no storage class or type specifier
+"../user_Lab1.c", line 65: error: declaration is incompatible with "void Init_UART(unsigned long, char)" (declared at line 12 of "..\UART.h")
+"../user_Lab1.c", line 67: error: expected a type specifier
+"../user_Lab1.c", line 67: warning: this declaration has no storage class or type specifier
+"../user_Lab1.c", line 67: warning: declaration hides built-in function "__bis_SR_register"
+"../user_Lab1.c", line 70: error: expected a declaration
+"../user_Lab1.c", line 90: error: this pragma must immediately precede a declaration
+"../user_Lab1.c", line 114: error: this pragma must immediately precede a declaration
+"../user_Lab1.c", line 139: warning: parsing restarts here after previous syntax error
+"../user_Lab1.c", line 140: error: expected a declaration
+"../user_Lab1.c", line 151: error: this pragma must immediately precede a declaration
+"../user_Lab1.c", line 175: warning: parsing restarts here after previous syntax error
+"../user_Lab1.c", line 176: error: expected a declaration
+At end of source: warning: parsing restarts here after previous syntax error
+11 errors detected in the compilation of "../user_Lab1.c".
+gmake: *** [user_Lab1.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+"../user_Lab1.c", line 23: warning: missing return statement at end of non-void function "switchstate"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+"../user_Lab1.c", line 23: warning: missing return statement at end of non-void function "switchstate"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+"../user_Lab1.c", line 27: warning: statement is unreachable
+"../user_Lab1.c", line 30: warning: missing return statement at end of non-void function "switchstate"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab1.obj' failed
+"../user_Lab1.c", line 127: error: expected a ")"
+"../user_Lab1.c", line 199: error: identifier "old_s_state" is undefined
+2 errors detected in the compilation of "../user_Lab1.c".
+gmake: *** [user_Lab1.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab1.obj' failed
+"../user_Lab1.c", line 128: error: expected a ")"
+1 error detected in the compilation of "../user_Lab1.c".
+gmake: *** [user_Lab1.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1.d_raw"  "../user_Lab1.c"
+Finished building: "../user_Lab1.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab1.hex"  "Lab1.out" 
+DEL /F "UARTFuncs.obj" "user_Lab1.obj" 
+DEL /F "UARTFuncs.d" "user_Lab1.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab1ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex2.d_raw"  "../user_Lab1ex2.c"
+Finished building: "../user_Lab1ex2.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex2.d_raw"  "../user_Lab1ex2.c"
+Finished building: "../user_Lab1ex2.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex2.d_raw"  "../user_Lab1ex2.c"
+Finished building: "../user_Lab1ex2.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex2.d_raw"  "../user_Lab1ex2.c"
+Finished building: "../user_Lab1ex2.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex2.d_raw"  "../user_Lab1ex2.c"
+Finished building: "../user_Lab1ex2.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex2.d_raw"  "../user_Lab1ex2.c"
+Finished building: "../user_Lab1ex2.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab1.hex"  "Lab1.out" 
+DEL /F "UARTFuncs.obj" "user_Lab1ex2.obj" 
+DEL /F "UARTFuncs.d" "user_Lab1ex2.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab1ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab1ex3.d_raw"  "../user_Lab1ex3.c"
+Finished building: "../user_Lab1ex3.c"
+ 
+Building target: "Lab1.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab1.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab1.out" "./UARTFuncs.obj" "./user_Lab1ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2.d_raw"  "../user_Lab2.c"
+Finished building: "../user_Lab2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2.d_raw"  "../user_Lab2.c"
+Finished building: "../user_Lab2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2.d_raw"  "../user_Lab2.c"
+Finished building: "../user_Lab2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2.d_raw"  "../user_Lab2.c"
+Finished building: "../user_Lab2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2.d_raw"  "../user_Lab2.c"
+Finished building: "../user_Lab2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2.d_raw"  "../user_Lab2.c"
+Finished building: "../user_Lab2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab2.hex"  "Lab2.out" 
+DEL /F "UARTFuncs.obj" "user_Lab2.obj" 
+DEL /F "UARTFuncs.d" "user_Lab2.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab2ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex2.d_raw"  "../user_Lab2ex2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab2ex2.obj' failed
+"../user_Lab2ex2.c", line 81: error: identifier "period" is undefined
+"../user_Lab2ex2.c", line 81: error: identifier "TACCR0val" is undefined
+"../user_Lab2ex2.c", line 101: error: identifier "TACCR0val" is undefined
+3 errors detected in the compilation of "../user_Lab2ex2.c".
+gmake: *** [user_Lab2ex2.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex2.d_raw"  "../user_Lab2ex2.c"
+Finished building: "../user_Lab2ex2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex2.d_raw"  "../user_Lab2ex2.c"
+Finished building: "../user_Lab2ex2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex2.d_raw"  "../user_Lab2ex2.c"
+Finished building: "../user_Lab2ex2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex2.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex2.d_raw"  "../user_Lab2ex2.c"
+Finished building: "../user_Lab2ex2.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex2.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab2.hex"  "Lab2.out" 
+DEL /F "UARTFuncs.obj" "user_Lab2ex2.obj" 
+DEL /F "UARTFuncs.d" "user_Lab2ex2.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab2ex3.obj' failed
+"../user_Lab2ex3.c", line 113: error: identifier "fngenTimer" is undefined
+1 error detected in the compilation of "../user_Lab2ex3.c".
+gmake: *** [user_Lab2ex3.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab2 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab2ex3.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab2ex3.d_raw"  "../user_Lab2ex3.c"
+Finished building: "../user_Lab2ex3.c"
+ 
+Building target: "Lab2.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab2.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab2.out" "./UARTFuncs.obj" "./user_Lab2ex3.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab2.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Cheapli_SE420.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "Cheapli_SE420.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xS_Adc.obj" "F2837xS_CodeStartBranch.obj" "F2837xS_EPwm.obj" "F2837xS_GlobalVariableDefs.obj" "F2837xS_Gpio.obj" "F2837xS_Spi.obj" "F2837xS_SysCtrl.obj" "F2837xS_usDelay.obj" "f28377sADC.obj" "f28377sCoecsl.obj" "f28377sDAC.obj" "f28377sEPWM3A.obj" "f28377sEqep.obj" "f28377sSerial.obj" "lcd.obj" "user_CheapliBEMF_SE420.obj" 
+DEL /F "F2837xS_Adc.d" "F2837xS_EPwm.d" "F2837xS_GlobalVariableDefs.d" "F2837xS_Gpio.d" "F2837xS_Spi.d" "F2837xS_SysCtrl.d" "f28377sADC.d" "f28377sCoecsl.d" "f28377sDAC.d" "f28377sEPWM3A.d" "f28377sEqep.d" "f28377sSerial.d" "lcd.d" "user_CheapliBEMF_SE420.d" 
+DEL /F "F2837xS_CodeStartBranch.d" "F2837xS_usDelay.d" 
+Could Not Find C:\dan\omapl138\se420\trunk\Cheapli_SE420\Cheapli_SE420Project\Debug\F2837xS_Adc.obj
+Could Not Find C:\dan\omapl138\se420\trunk\Cheapli_SE420\Cheapli_SE420Project\Debug\F2837xS_Adc.d
+Could Not Find C:\dan\omapl138\se420\trunk\Cheapli_SE420\Cheapli_SE420Project\Debug\F2837xS_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/Cheapli_SE420.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/xs" --xdcpath="C:/CCStudio_v8/tirtos_c2000_2_16_01_14/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/tidrivers_c2000_2_16_01_13/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/ndk_2_25_00_09/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/uia_2_00_05_50/packages;C:/CCStudio_v8/bios_6_70_01_03/packages;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28377S -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/Cheapli_SE420.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring Cheapli_SE420.x28FP from package/cfg/Cheapli_SE420_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/dan/omapl138/se420/trunk/Cheapli_SE420/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/dan/omapl138/se420/trunk/Cheapli_SE420/src/sysbios'
+cl28FP C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages/ti/sysbios/BIOS.c ...
+asm28FP C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages/ti/sysbios/family/c28/Hwi_asm.s28 ...
+asm28FP C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages/ti/sysbios/family/c28/Hwi_disp_asm.s28 ...
+asm28FP C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages/ti/sysbios/family/c28/IntrinsicsSupport_asm.s28 ...
+asm28FP C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages/ti/sysbios/family/c28/TaskSupport_asm.s28 ...
+ar28FP BIOS.obj c28_Hwi_asm.obj c28_Hwi_disp_asm.obj c28_IntrinsicsSupport_asm.obj c28_TaskSupport_asm.obj ...
+gmake[1]: Leaving directory `C:/dan/omapl138/se420/trunk/Cheapli_SE420/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/Cheapli_SE420_p28FP.c ...
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/Cheapli_SE420.cfg"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Adc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_Adc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Adc.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Adc.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_CodeStartBranch.asm"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_CodeStartBranch.asm"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_EPwm.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_EPwm.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_EPwm.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_EPwm.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/source/F2837xS_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_GlobalVariableDefs.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/source/F2837xS_GlobalVariableDefs.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/source/F2837xS_GlobalVariableDefs.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Gpio.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_Gpio.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Gpio.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Gpio.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Spi.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_Spi.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Spi.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Spi.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_SysCtrl.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_SysCtrl.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_usDelay.asm"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_usDelay.asm"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sADC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sADC.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sADC.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sADC.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sCoecsl.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sCoecsl.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sDAC.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c"
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c", line 36 (col. 75): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sEPWM3A.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c"
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c", line 47 (col. 28): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sEqep.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c"
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c", line 33 (col. 19): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sSerial.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sSerial.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/lcd.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="lcd.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/lcd.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/lcd.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_CheapliBEMF_SE420.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="user_CheapliBEMF_SE420.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_CheapliBEMF_SE420.c"
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/packages/xdc/std.h", line 254: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/packages/xdc/std.h", line 255: warning #303-D: typedef name has already been declared (with same type)
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_CheapliBEMF_SE420.c", line 434: warning #1181-D: #warning directive: Maybe move above DINT?
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_CheapliBEMF_SE420.c", line 557 (col. 47): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_CheapliBEMF_SE420.c", line 653 (col. 47): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for atan.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_CheapliBEMF_SE420.c"
+ 
+Building target: "Cheapli_SE420.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Cheapli_SE420.map" --stack_size=0x200 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Cheapli_SE420_linkInfo.xml" --rom_model -o "Cheapli_SE420.out" "./F2837xS_Adc.obj" "./F2837xS_CodeStartBranch.obj" "./F2837xS_EPwm.obj" "./F2837xS_GlobalVariableDefs.obj" "./F2837xS_Gpio.obj" "./F2837xS_Spi.obj" "./F2837xS_SysCtrl.obj" "./F2837xS_usDelay.obj" "./f28377sADC.obj" "./f28377sCoecsl.obj" "./f28377sDAC.obj" "./f28377sEPWM3A.obj" "./f28377sEqep.obj" "./f28377sSerial.obj" "./lcd.obj" "./user_CheapliBEMF_SE420.obj" -l"configPkg/linker.cmd" -llibc.a -l"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib/rts2800_fpu32.lib" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/F2837xS_Headers_BIOS.cmd" 
+<Linking>
+Finished building target: "Cheapli_SE420.out"
+ 
+Building files: "Cheapli_SE420.out"
+Invoking: C2000 Hex Utility
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/hex2000" --memwidth=16 --romwidth=16 --intel -o "Cheapli_SE420.hex"  "Cheapli_SE420.out" 
+Translating to Intel format...
+   "Cheapli_SE420.out" codestart ==> codestart
+   "Cheapli_SE420.out" ramfuncs ==> ramfuncs
+   "Cheapli_SE420.out" .text:ti_catalog_c2800_initF2837x_flashfuncs ==> .text:ti_catalog_c2800_initF2837x_flashfuncs
+   "Cheapli_SE420.out" .cinit ==> .cinit
+   "Cheapli_SE420.out" .switch ==> .switch
+   "Cheapli_SE420.out" .binit ==> .binit
+   "Cheapli_SE420.out" .econst ==> .econst
+   "Cheapli_SE420.out" .text ==> .text
+warning: Data is being written to auto-generated file Cheapli_SE420.i10
+Finished building: "Cheapli_SE420.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Cheapli_SE420.hex"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "Cheapli_SE420.out" 
+RMDIR /S/Q  "configPkg\" 
+DEL /F "F2837xS_Adc.obj" "F2837xS_CodeStartBranch.obj" "F2837xS_EPwm.obj" "F2837xS_GlobalVariableDefs.obj" "F2837xS_Gpio.obj" "F2837xS_Spi.obj" "F2837xS_SysCtrl.obj" "F2837xS_usDelay.obj" "f28377sADC.obj" "f28377sCoecsl.obj" "f28377sDAC.obj" "f28377sEPWM3A.obj" "f28377sEqep.obj" "f28377sSerial.obj" "lcd.obj" "user_CheapliBEMF_SE420.obj" 
+DEL /F "F2837xS_Adc.d" "F2837xS_EPwm.d" "F2837xS_GlobalVariableDefs.d" "F2837xS_Gpio.d" "F2837xS_Spi.d" "F2837xS_SysCtrl.d" "f28377sADC.d" "f28377sCoecsl.d" "f28377sDAC.d" "f28377sEPWM3A.d" "f28377sEqep.d" "f28377sSerial.d" "lcd.d" "user_CheapliBEMF_SE420.d" 
+DEL /F "F2837xS_CodeStartBranch.d" "F2837xS_usDelay.d" 
+Could Not Find C:\dan\omapl138\se420\trunk\Cheapli_SE420\Cheapli_SE420Project\Debug\F2837xS_CodeStartBranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/Cheapli_SE420.cfg"
+Invoking: XDCtools
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/xs" --xdcpath="C:/CCStudio_v8/tirtos_c2000_2_16_01_14/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/tidrivers_c2000_2_16_01_13/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/bios_6_45_02_31/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/ndk_2_25_00_09/packages;C:/CCStudio_v8/tirtos_c2000_2_16_01_14/products/uia_2_00_05_50/packages;C:/CCStudio_v8/bios_6_70_01_03/packages;" xdc.tools.configuro -o configPkg -t ti.targets.C28_float -p ti.platforms.tms320x28:TMS320F28377S -r debug -c "C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/Cheapli_SE420.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring Cheapli_SE420.x28FP from package/cfg/Cheapli_SE420_p28FP.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/dan/omapl138/se420/trunk/Cheapli_SE420/src/sysbios/sysbios.a28FP ...
+gmake[1]: Entering directory `C:/dan/omapl138/se420/trunk/Cheapli_SE420/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/dan/omapl138/se420/trunk/Cheapli_SE420/src/sysbios'
+Build of libraries done.
+cl28FP package/cfg/Cheapli_SE420_p28FP.c ...
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/Cheapli_SE420.cfg"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Adc.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_Adc.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Adc.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Adc.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_CodeStartBranch.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_CodeStartBranch.asm"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_CodeStartBranch.asm"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_EPwm.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_EPwm.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_EPwm.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_EPwm.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/source/F2837xS_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_GlobalVariableDefs.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/source/F2837xS_GlobalVariableDefs.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/source/F2837xS_GlobalVariableDefs.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Gpio.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_Gpio.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Gpio.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Gpio.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Spi.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_Spi.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Spi.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_Spi.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_SysCtrl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_SysCtrl.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_SysCtrl.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="F2837xS_usDelay.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_usDelay.asm"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/source/F2837xS_usDelay.asm"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sADC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sADC.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sADC.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sADC.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sCoecsl.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sCoecsl.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sCoecsl.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sCoecsl.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sDAC.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c"
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c", line 36 (col. 75): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sDAC.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sEPWM3A.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c"
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c", line 47 (col. 28): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEPWM3A.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sEqep.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c"
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c", line 33 (col. 19): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sEqep.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sSerial.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="f28377sSerial.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sSerial.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/f28377sSerial.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/lcd.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="lcd.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/lcd.c"
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sSrc/lcd.c"
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="user_ Cheapli_SE420.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c"
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/packages/xdc/std.h", line 254: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/packages/xdc/std.h", line 255: warning #303-D: typedef name has already been declared (with same type)
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c", line 389: warning #1181-D: #warning directive: Maybe move above DINT?
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c", line 512 (col. 47): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c", line 608 (col. 47): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for atan.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c"
+ 
+Building target: "Cheapli_SE420.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Cheapli_SE420.map" --stack_size=0x200 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Cheapli_SE420_linkInfo.xml" --rom_model -o "Cheapli_SE420.out" "./F2837xS_Adc.obj" "./F2837xS_CodeStartBranch.obj" "./F2837xS_EPwm.obj" "./F2837xS_GlobalVariableDefs.obj" "./F2837xS_Gpio.obj" "./F2837xS_Spi.obj" "./F2837xS_SysCtrl.obj" "./F2837xS_usDelay.obj" "./f28377sADC.obj" "./f28377sCoecsl.obj" "./f28377sDAC.obj" "./f28377sEPWM3A.obj" "./f28377sEqep.obj" "./f28377sSerial.obj" "./lcd.obj" "./user_Cheapli_SE420.obj" -l"configPkg/linker.cmd" -llibc.a -l"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib/rts2800_fpu32.lib" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/F2837xS_Headers_BIOS.cmd" 
+<Linking>
+ 
+ undefined first referenced                                                                                                    
+  symbol       in file                                                                                                         
+ --------- ----------------                                                                                                    
+ _Hw_ADCB  C:\dan\omapl138\se420\trunk\Cheapli_SE420\Cheapli_SE420Project\Debug\configPkg\package\cfg\Cheapli_SE420_p28FP.o28FP
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Cheapli_SE420.out" not built
+ 
+>> Compilation failure
+makefile:157: recipe for target 'Cheapli_SE420.out' failed
+gmake: *** [Cheapli_SE420.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c"
+Invoking: C2000 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/F28377sHeaders/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/include/" --include_path="C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/include/" --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="user_ Cheapli_SE420.d_raw" --cmd_file="configPkg/compiler.opt" "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c"
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/packages/xdc/std.h", line 254: warning #303-D: typedef name has already been declared (with same type)
+"C:/CCStudio_v8/xdctools_3_32_00_06_core/packages/xdc/std.h", line 255: warning #303-D: typedef name has already been declared (with same type)
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c", line 389: warning #1181-D: #warning directive: Maybe move above DINT?
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c", line 512 (col. 47): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+"C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c", line 608 (col. 47): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for atan.
+Finished building: "C:/dan/omapl138/se420/trunk/Cheapli_SE420/user_Cheapli_SE420.c"
+ 
+Building target: "Cheapli_SE420.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Cheapli_SE420.map" --stack_size=0x200 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Cheapli_SE420_linkInfo.xml" --rom_model -o "Cheapli_SE420.out" "./F2837xS_Adc.obj" "./F2837xS_CodeStartBranch.obj" "./F2837xS_EPwm.obj" "./F2837xS_GlobalVariableDefs.obj" "./F2837xS_Gpio.obj" "./F2837xS_Spi.obj" "./F2837xS_SysCtrl.obj" "./F2837xS_usDelay.obj" "./f28377sADC.obj" "./f28377sCoecsl.obj" "./f28377sDAC.obj" "./f28377sEPWM3A.obj" "./f28377sEqep.obj" "./f28377sSerial.obj" "./lcd.obj" "./user_Cheapli_SE420.obj" -l"configPkg/linker.cmd" -llibc.a -l"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib/rts2800_fpu32.lib" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/F2837xS_Headers_BIOS.cmd" 
+<Linking>
+Finished building target: "Cheapli_SE420.out"
+ 
+Building files: "Cheapli_SE420.out"
+Invoking: C2000 Hex Utility
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/hex2000" --memwidth=16 --romwidth=16 --intel -o "Cheapli_SE420.hex"  "Cheapli_SE420.out" 
+Translating to Intel format...
+   "Cheapli_SE420.out" codestart ==> codestart
+   "Cheapli_SE420.out" ramfuncs ==> ramfuncs
+   "Cheapli_SE420.out" .text:ti_catalog_c2800_initF2837x_flashfuncs ==> .text:ti_catalog_c2800_initF2837x_flashfuncs
+   "Cheapli_SE420.out" .cinit ==> .cinit
+   "Cheapli_SE420.out" .switch ==> .switch
+   "Cheapli_SE420.out" .binit ==> .binit
+   "Cheapli_SE420.out" .econst ==> .econst
+   "Cheapli_SE420.out" .text ==> .text
+warning: Data is being written to auto-generated file Cheapli_SE420.i10
+Finished building: "Cheapli_SE420.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building target: "Cheapli_SE420.out"
+Invoking: C2000 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --define=_FLASH --define=CPU1 -g --diag_suppress=1311 --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Cheapli_SE420.map" --stack_size=0x200 --warn_sections -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/" -i"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Cheapli_SE420_linkInfo.xml" --rom_model -o "Cheapli_SE420.out" "./F2837xS_Adc.obj" "./F2837xS_CodeStartBranch.obj" "./F2837xS_EPwm.obj" "./F2837xS_GlobalVariableDefs.obj" "./F2837xS_Gpio.obj" "./F2837xS_Spi.obj" "./F2837xS_SysCtrl.obj" "./F2837xS_usDelay.obj" "./f28377sADC.obj" "./f28377sCoecsl.obj" "./f28377sDAC.obj" "./f28377sEPWM3A.obj" "./f28377sEqep.obj" "./f28377sSerial.obj" "./lcd.obj" "./user_Cheapli_SE420.obj" -l"configPkg/linker.cmd" -llibc.a -l"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/lib/rts2800_fpu32.lib" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_common/cmd/2837x_Dan_FLASH_lnk_cpu1.cmd" -l"C:/dan/omapl138/se420/trunk/Cheapli_SE420/v140/F2837xS_headers/cmd/F2837xS_Headers_BIOS.cmd" 
+<Linking>
+Finished building target: "Cheapli_SE420.out"
+ 
+Building files: "Cheapli_SE420.out"
+Invoking: C2000 Hex Utility
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-c2000_17.6.0.STS/bin/hex2000" --memwidth=16 --romwidth=16 --intel -o "Cheapli_SE420.hex"  "Cheapli_SE420.out" 
+Translating to Intel format...
+   "Cheapli_SE420.out" codestart ==> codestart
+   "Cheapli_SE420.out" ramfuncs ==> ramfuncs
+   "Cheapli_SE420.out" .text:ti_catalog_c2800_initF2837x_flashfuncs ==> .text:ti_catalog_c2800_initF2837x_flashfuncs
+   "Cheapli_SE420.out" .cinit ==> .cinit
+   "Cheapli_SE420.out" .switch ==> .switch
+   "Cheapli_SE420.out" .binit ==> .binit
+   "Cheapli_SE420.out" .econst ==> .econst
+   "Cheapli_SE420.out" .text ==> .text
+warning: Data is being written to auto-generated file Cheapli_SE420.i10
+Finished building: "Cheapli_SE420.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Cheapli_SE420 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
