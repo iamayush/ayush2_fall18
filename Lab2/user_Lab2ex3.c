@@ -119,6 +119,7 @@ __interrupt void Timer_A (void)
 		newprint = 1;  // flag main while loop that .5 seconds have gone by.  
 	}
 
+	// making triangular signal
 	if (fngenTimer <= 400){
 	    TBCCR1 += 4;
 	}
