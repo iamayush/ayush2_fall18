@@ -13,6 +13,7 @@ University of Illinois at Urbana-Champaign
 
 #include "msp430x22x2.h"
 #include "UART.h"
+#define temp_off -36.975
 
 char newprint = 0;
 unsigned int timecnt = 0;
@@ -22,7 +23,8 @@ unsigned int fastcnt = 0;
 // int TACCR0val = 16000; // for 1ms
 
 int DC_val = 0; // determined PWM duty cycle at P4.4
-int mv_adc = 0;;
+int mv_adc = 0;
+float temp = 0; // in Celsius
 
 void main(void) {
 
@@ -48,9 +50,9 @@ void main(void) {
     P4DIR |= 0x10;
 
     // Using Temperature Sensor at ADC
-    ADC10AE0 |= BIT0;
-    ADC10CTL0 = SREF_0 + ADC10SHT_2 + ADC10ON + ADC10IE;
-    ADC10CTL1 = INCH_10 + ADC10SSEL_0;
+    ADC10AE0 |= BITA;
+    ADC10CTL0 = SREF_0 + ADC10SHT_3 + ADC10ON + ADC10IE; // 64 adc cycles for 30 us sampling time
+    ADC10CTL1 = INCH_10 + ADC10SSEL_0 + ADC10DIV_2; // Temp Sensor, ADC10 CLK div by 3
 
     // Timer A Config
     TACCTL0 = CCIE;              // Enable Timer A interrupt
@@ -70,23 +72,6 @@ void main(void) {
     TBCCTL1 = OUTMOD_7;
     TBCCR1 = DC_val;
 
-
-    /* Uncomment this block when using the wireless modems on the robots
-    // Wireless modem control pins
-    P2SEL &= ~0xC0; // Digital I/O
-    P2REN &= ~0xC0; // Disable internal resistor for P2.6 and P2.7
-    P2OUT |= 0x80;  // CMD/Data pin high for data
-    P2DIR |= 0x80;  // Output direction for CMD/data pin (P2.7)
-    P2DIR &= ~0x40; // Input direction for CTS pin (P2.6)
-    P2IFG &= ~0xC0; // Clear Port P2.6 and P2.7 interrupt flags
-    P2IES &= ~0xC0; // If port interrupts are enabled a High to Low transition on a Port pin will cause an interrupt
-    P2IE &= ~0xC0;  // Disable P2.6 and P2.7 interrupts
-    //Not sure why we are disabling P1.6 and P1.7 interrupts?
-    P1IFG &= ~0xC0; // Clear Port P1.6 and P1.7 interrupt flags
-    P1IES &= ~0xC0; // If port interrupts are enabled a High to Low transition on a Port pin will cause an interrupt
-    P1IE &= ~0xC0;  // Disable P1.6 and P1.7 interrupts
-     */
-
     Init_UART(9600, 1); // Initialize UART for 9600 baud serial communication
 
     _BIS_SR(GIE);       // Enable global interrupt
@@ -101,7 +86,7 @@ void main(void) {
 
         if (newprint)  {
             P1OUT ^= 0x04; // Blink LED
-            UART_printf("DAC Voltage %d %d mV \n\r",(int)(3560*DC_val/1600),mv_adc);
+            UART_printf("T %0.2f adc %d mV \n\r",temp,mv_adc);
             // UART_send(1,(float)timecnt);
 
             TBCCR1 = DC_val; // resetting every 0.5s to change value from watch expressions easily
@@ -148,6 +133,7 @@ __interrupt void Timer_A (void)
 #pragma vector=ADC10_VECTOR
 __interrupt void ADC10_ISR(void) {
     mv_adc = (int)(3560*ADC10MEM/1023);
+    temp = ((float)mv_adc - temp_off)/3.55;
     ADC10CTL0 &= ~ADC10IFG;  // clear interrupt flag
 }
 
