@@ -10,26 +10,26 @@ CMD_SRCS += \
 
 C_SRCS += \
 ../UARTFuncs.c \
-../user_Lab3.c 
+../user_Lab3ex3.c 
 
 C_DEPS += \
 ./UARTFuncs.d \
-./user_Lab3.d 
+./user_Lab3ex3.d 
 
 OBJS += \
 ./UARTFuncs.obj \
-./user_Lab3.obj 
+./user_Lab3ex3.obj 
 
 OBJS__QUOTED += \
 "UARTFuncs.obj" \
-"user_Lab3.obj" 
+"user_Lab3ex3.obj" 
 
 C_DEPS__QUOTED += \
 "UARTFuncs.d" \
-"user_Lab3.d" 
+"user_Lab3ex3.d" 
 
 C_SRCS__QUOTED += \
 "../UARTFuncs.c" \
-"../user_Lab3.c" 
+"../user_Lab3ex3.c" 
 
 

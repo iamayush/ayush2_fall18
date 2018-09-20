@@ -11,7 +11,7 @@ GEN_CMDS__FLAG :=
 
 ORDERED_OBJS += \
 "./UARTFuncs.obj" \
-"./user_Lab3.obj" \
+"./user_Lab3ex3.obj" \
 "../lnk_msp430f2272.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
@@ -154,8 +154,8 @@ Lab3.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "UARTFuncs.obj" "user_Lab3.obj" 
-	-$(RM) "UARTFuncs.d" "user_Lab3.d" 
+	-$(RM) "UARTFuncs.obj" "user_Lab3ex3.obj" 
+	-$(RM) "UARTFuncs.d" "user_Lab3ex3.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

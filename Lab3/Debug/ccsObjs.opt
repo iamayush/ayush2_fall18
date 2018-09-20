@@ -1,1 +1,1 @@
-"./UARTFuncs.obj" "./user_Lab3.obj" "../lnk_msp430f2272.cmd" -llibc.a 
+"./UARTFuncs.obj" "./user_Lab3ex3.obj" "../lnk_msp430f2272.cmd" -llibc.a 
