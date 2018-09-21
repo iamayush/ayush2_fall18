@@ -18,6 +18,8 @@ char newprint = 0;
 unsigned int timecnt = 0;
 unsigned int fastcnt = 0;
 
+int adcval;
+
 void main(void) {
 
     WDTCTL = WDTPW + WDTHOLD; // Stop WDT
@@ -37,14 +39,19 @@ void main(void) {
     P1IE  &= ~0xFF; // Disable all port interrupts
 
     // Pin 2.1 as A1
-    ADC10AE |= BIT1;
-    ADC10CTL0 = SREF_0 + ADC10SHT_3 + ADC10ON + ADC10IE; // 64 adc cycles for 30 us sampling time
-    ADC10CTL1 = INCH_10 + ADC10SSEL_0 + ADC10DIV_2;
+    ADC10AE0 |= BIT1;
+    ADC10CTL0 = SREF_0 + ADC10SHT_1 + ADC10ON + ADC10IE; // 8 adc cycles for 1.56 us sampling time
+    ADC10CTL1 = INCH_1 + ADC10SSEL_0 + ADC10DIV_0 + ADC10DF; //2's complement
 
     // Timer A Config
     TACCTL0 = CCIE;              // Enable Timer A interrupt
     TACCR0  = 16000;             // period = 1ms
     TACTL   = TASSEL_2 + MC_1;   // source SMCLK, up mode
+
+    // Timer B Config 10 kHz
+    TBCCTL0 = CCIE;
+    TBCCR0 = 40000;
+    TBCTL = TBSSEL_2 + MC_1 + ID_2;
 
     Init_UART(9600, 1);	// Initialize UART for 9600 baud serial communication
 
@@ -59,8 +66,8 @@ void main(void) {
         }
 
         if (newprint)  {
-            P1OUT ^= 0x1; // Blink LED
-            UART_printf("Hello %d\n\r",timecnt);
+            //P1OUT ^= 0x1; // Blink LED
+            UART_printf("ADC_mic %d\n\r",adcval);
             // UART_send(1,(float)timecnt);
 
             timecnt++;  // Just incrementing this integer for default print out.
@@ -85,14 +92,34 @@ __interrupt void Timer_A (void)
 
 }
 
+// Timer B interrupt service routine
+#pragma vector=TIMERB0_VECTOR
+__interrupt void Timer_B (void){
 
-/*
+    ADC10CTL0 |= ADC10SC + ENC; //sample at 10 kHz
+}
+
+
 // ADC 10 ISR - Called when a sequence of conversions (A7-A0) have completed
 #pragma vector=ADC10_VECTOR
 __interrupt void ADC10_ISR(void) {
+    // adcval = ((ADC10MEM>>6));//&0x1FF
 
+    if((ADC10MEM&0x8000) == 0x8000){
+        adcval = (((((ADC10MEM>>6)^0x3FF)&0x03FF)+0x001)&0x1FF);//((ADC10MEM^0xFFC0)+0x0040)>>6;
+    }
+    else{
+        adcval = ADC10MEM>>6;
+    }
+
+    if(adcval > 150)
+        P1OUT |= 0x01;
+    else
+        P1OUT &= ~0x01;
+
+    ADC10CTL0 &= ~ADC10IFG;
 }
- */
+
 
 
 // USCI Transmit ISR - Called when TXBUF is empty (ready to accept another character)
