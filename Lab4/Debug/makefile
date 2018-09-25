@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS
+CG_TOOL_ROOT := C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -140,14 +140,14 @@ all: Lab4.out
 Lab4.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" $(ORDERED_OBJS)
+	"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 Lab4.hex: $(EXE_OUTPUTS)
 	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 -o "Lab4.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 -o "Lab4.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo ' '
 

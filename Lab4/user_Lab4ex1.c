@@ -25,7 +25,7 @@ char firstTX = 0; // indicates that 1st 8 bits have been sent
 char rampPhase = 0; // 0:up, 1:down
 
 // Functions
-//void rampfunc(void); // generates ramp for DAC
+void rampfunc(void); // generates ramp for DAC
 
 void main(void) {
 
@@ -97,13 +97,8 @@ __interrupt void Timer_A (void)
         newprint = 1;  // flag main while loop that .5 seconds have gone by.
     }
 
-    // Generating tone at 250 Hz
-    if((fastcnt % 2) == 0){
-        if(DACVAL == 0)
-            DACVAL = 1023;
-        else
-            DACVAL = 0;
-    }
+    // Generating saw-tooth/ramp function
+    rampfunc();
 
     // Send value to DAC every 1 ms
     DACSEND = ((DACVAL<<2) & 0x0FFF) | 0x4000; // DACSEND has 16 bits= bit0,1 as zero, bit2-11 as DACVAL
@@ -199,18 +194,18 @@ __interrupt void USCI0RX_ISR(void) {
     }
 
 }
-//void rampfunc(void){
-//    if(rampPhase == 0){
-//        DACVAL++;
-//        if(DACVAL == 1023)
-//            rampPhase = 1; // start down phase
-//    }
-//
-//    else{
-//        DACVAL--;
-//        if(DACVAL == 0)
-//            rampPhase = 0; // start up phase
-//    }
-//}
+void rampfunc(void){
+    if(rampPhase == 0){
+        DACVAL++;
+        if(DACVAL == 1023)
+            rampPhase = 1; // start down phase
+    }
+
+    else{
+        DACVAL--;
+        if(DACVAL == 0)
+            rampPhase = 0; // start up phase
+    }
+}
 
 
