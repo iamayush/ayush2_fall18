@@ -43,16 +43,9 @@ void main(void) {
     P1OUT &= ~0xFF; // Initially set all Port 1 pins set as Outputs to zero
 
     //P3.1 as SIMO; P3.3 as SCLK; P3.0 as Output(FS) - SPI(USCIB0)
-    //P3.6 as A6
     P3SEL |= 0x0A;
     P3SEL &= ~0x01;
     P3DIR |= 0x01;
-    ADC10AE0 |= BIT6;
-
-    // ADC Initializations
-    ADC10CTL0 |= SREF_0 + ADC10SHT_1 + ADC10ON + ADC10IE;
-    ADC10CTL1 |= INCH_6;
-
 
     //SPI Setup
     UCB0CTL0 |= UCMSB + UCMST + UCSYNC; // MSB first; master; synchronous
@@ -66,7 +59,7 @@ void main(void) {
 
     // Timer A Config
     TACCTL0 = CCIE;              // Enable Timer A interrupt
-    TACCR0  = 1600;             // period = 0.1ms
+    TACCR0  = 16000;             // period = 1ms
     TACTL   = TASSEL_2 + MC_1;   // source SMCLK, up mode
 
     Init_UART(9600, 1);	// Initialize UART for 9600 baud serial communication
@@ -99,31 +92,20 @@ __interrupt void Timer_A (void)
 {
     fastcnt++; // Keep track of time for main while loop.
 
-    if (fastcnt == 5000) {
+    if (fastcnt == 500) {
         fastcnt = 0;
         newprint = 1;  // flag main while loop that .5 seconds have gone by.
     }
 
-    //    // Generating tone at 250 Hz
-    //    if((fastcnt % 2) == 0){
-    //        if(DACVAL == 0)
-    //            DACVAL = 1023;
-    //        else
-    //            DACVAL = 0;
-    //    }
+    // Generating tone at 250 Hz
+    if((fastcnt % 2) == 0){
+        if(DACVAL == 0)
+            DACVAL = 1023;
+        else
+            DACVAL = 0;
+    }
 
-    // ADC Sample at 10 kHz
-    ADC10CTL0 |= ADC10SC + ENC;
-}
-
-
-// ADC 10 ISR - Called when a sequence of conversions (A7-A0) have completed
-#pragma vector=ADC10_VECTOR
-__interrupt void ADC10_ISR(void) {
-    DACVAL = ADC10MEM; // echo ADC in thru DAC
-    ADC10CTL0 &= ~ADC10IFG; // clear interrupt flag
-
-    // Send value to DAC at 10 kHz
+    // Send value to DAC every 1 ms
     DACSEND = ((DACVAL<<2) & 0x0FFF) | 0x4000; // DACSEND has 16 bits= bit0,1 as zero, bit2-11 as DACVAL
     // and bits12-15 for fast mode and normal power
     P3OUT |= 0x01;  // Frame select pulse
@@ -133,6 +115,14 @@ __interrupt void ADC10_ISR(void) {
     firstTX = 1; // flags that first 8 bits have been handled
 }
 
+
+/*
+// ADC 10 ISR - Called when a sequence of conversions (A7-A0) have completed
+#pragma vector=ADC10_VECTOR
+__interrupt void ADC10_ISR(void) {
+
+}
+ */
 
 
 // USCI Transmit ISR - Called when TXBUF is empty (ready to accept another character)

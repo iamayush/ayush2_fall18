@@ -2480,3 +2480,38 @@ Finished building target: "Lab4.out"
  
 
 **** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab4 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab4.hex"  "Lab4.out" 
+DEL /F "UARTFuncs.obj" "user_Lab4.obj" 
+DEL /F "UARTFuncs.d" "user_Lab4.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab4.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab4.d_raw"  "../user_Lab4.c"
+Finished building: "../user_Lab4.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./UARTFuncs.obj" "./user_Lab4.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
