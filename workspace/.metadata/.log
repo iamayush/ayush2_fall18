@@ -2408,3 +2408,33 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Lab4/user_Lab
 
 !ENTRY org.eclipse.launchbar.core 2 0 2018-10-03 11:30:09.030
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2018-10-03 14:02:02.764 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-10-03 14:02:07.513
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-10-03 14:02:07.523
+!MESSAGE debugServerDir=C:/CCStudio_v8/ccsv8/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-10-03 14:02:39.927
+!MESSAGE No repository found at http://software-dl.ti.com/ccs/non-esd/dvt/ccs6.0.
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-10-03 14:09:15.281
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-10-03 14:09:15.431
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-10-03 15:31:34.725
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-10-03 15:31:34.735
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

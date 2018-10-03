@@ -17,10 +17,11 @@ University of Illinois at Urbana-Champaign
 char newprint = 0;
 unsigned int timecnt = 0;
 unsigned int fastcnt = 0;
-int mvADC = 0; // ADC reading in mV
+
 
 // Create your global variables here:
-
+int mvADC = 0; // ADC reading in mV
+int rpm = 0; // motor speed from tachometer voltage
 
 
 void main(void) {
@@ -61,7 +62,7 @@ void main(void) {
 
         if (newprint)  {
             P1OUT ^= 0x1; // Blink LED
-            UART_printf("mV %d\n\r",mvADC); //  %d int, %ld long, %c char, %x hex form, %.3f float 3 decimal place, %s null terminated character array
+            UART_printf("mV %d rpm %d\n\r",mvADC,rpm); //  %d int, %ld long, %c char, %x hex form, %.3f float 3 decimal place, %s null terminated character array
             // UART_send(1,(float)timecnt);
 
             timecnt++;  // Just incrementing this integer for default print out.
@@ -92,6 +93,7 @@ __interrupt void Timer_A (void)
 #pragma vector=ADC10_VECTOR
 __interrupt void ADC10_ISR(void) {
     mvADC = (ADC10MEM*3600L)/1023; // in mV
+    rpm = ((-25*mvADC)/10) + 3798; // calibrated .xlsx
     ADC10CTL0 &= ~ADC10IFG; // clear interrupt flag
 }
 
