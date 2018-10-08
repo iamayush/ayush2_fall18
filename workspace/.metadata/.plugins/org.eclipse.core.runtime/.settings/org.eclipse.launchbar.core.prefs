@@ -11,5 +11,5 @@ org.eclipse.launchbar.core.descriptorType.default\:Lab3/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Lab3/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Lab4/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lab4/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:Lab5/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lab5/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Lab5/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

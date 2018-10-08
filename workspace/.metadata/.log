@@ -2846,3 +2846,25 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.launchbar.core 2 0 2018-10-05 15:46:34.357
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2018-10-08 07:46:59.346 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-10-08 07:47:04.318
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-10-08 07:47:04.327
+!MESSAGE debugServerDir=C:/CCStudio_v8/ccsv8/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-10-08 07:47:37.726
+!MESSAGE No repository found at http://software-dl.ti.com/ccs/non-esd/dvt/ccs6.0.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-10-08 08:28:27.724
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-10-08 08:28:27.734
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
