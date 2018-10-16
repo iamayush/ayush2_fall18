@@ -2992,3 +2992,342 @@ Finished building target: "Lab5.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab6.obj' failed
+"../user_Lab6.c", line 16: fatal error: cannot open source file "LS7266.h"
+1 catastrophic error detected in the compilation of "../user_Lab6.c".
+Compilation terminated.
+gmake: *** [user_Lab6.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab6.hex"  "Lab6.out" 
+DEL /F "UARTFuncs.obj" "user_Lab6.obj" 
+DEL /F "UARTFuncs.d" "user_Lab6.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "Lab6.hex"  "Lab6.out" 
+DEL /F "UARTFuncs.obj" "user_Lab6.obj" 
+DEL /F "UARTFuncs.d" "user_Lab6.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../UARTFuncs.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="UARTFuncs.d_raw"  "../UARTFuncs.c"
+Finished building: "../UARTFuncs.c"
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'user_Lab6.obj' failed
+"../user_Lab6.c", line 144: error: identifier "firstlong" is undefined
+"../user_Lab6.c", line 145: error: identifier "secondlong" is undefined
+2 errors detected in the compilation of "../user_Lab6.c".
+gmake: *** [user_Lab6.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\CCStudio_v8\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../user_Lab6.c"
+Invoking: MSP430 Compiler
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" --include_path="C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="user_Lab6.d_raw"  "../user_Lab6.c"
+Finished building: "../user_Lab6.c"
+ 
+Building target: "Lab6.out"
+Invoking: MSP430 Linker
+"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmsp -O0 --use_hw_mpy=none --define=__MSP430F2272__ -g --printf_support=full --diag_warning=225 --abi=eabi --silicon_errata=CPU19 -z -m"Lab6.map" --heap_size=80 --stack_size=80 -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/ccs_base/msp430/include" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/CCStudio_v8/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --warn_sections --xml_link_info="Lab6_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab6.out" "./UARTFuncs.obj" "./user_Lab6.obj" "../lnk_msp430f2272.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****

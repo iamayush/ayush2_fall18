@@ -21,9 +21,6 @@ unsigned long timecnt = 0;
 char RXdata[8] = {0};
 char TXdata[8] = {0};
 char bytecnt = 0; // keeps count of which byte is received or sent
-long firstlong = 0;
-long secondlong = 0;
-
 
 void main(void) {
 
@@ -76,7 +73,7 @@ void main(void) {
 
         if (newprint)  {
             //P1OUT ^= 0x1;     // Blink LED
-            UART_printf("%ld %ld\n\r",firstlong, secondlong);
+            UART_printf("%d %d %d %d %d %d %d %d\n\r", RXdata[0],RXdata[1],RXdata[2],RXdata[3],RXdata[4],RXdata[5],RXdata[6],RXdata[7]);
             // UART_send(1,(float)timecnt/500);
             newprint = 0;
         }
@@ -92,7 +89,7 @@ __interrupt void Timer_A (void)
     timecnt++; // Keep track of time for main while loop.
 
     if ((timecnt%500) == 0) {
-        //newprint = 1;  // flag main while loop that .5 seconds have gone by.
+        newprint = 1;  // flag main while loop that .5 seconds have gone by.
     }
 
 }
@@ -139,13 +136,10 @@ __interrupt void USCI0TX_ISR(void) {
     if((IFG2&UCB0RXIFG) && (IE2&UCB0RXIE)) {    // USCI_B0 RX interrupt occurs here for I2C
         // put your RX code here.
         RXdata[bytecnt] = UCB0RXBUF;
+        TXdata[bytecnt] = RXdata[bytecnt];
         bytecnt++;
         if(bytecnt == 8){
             bytecnt = 0;
-
-            // assembling the 2 longs; lsb 8 bits sent first
-            firstlong = (((long)RXdata[3])<<24)+(((long)RXdata[2])<<16)+(((long)RXdata[1])<<8)+((long)RXdata[0]);
-            secondlong = (((long)RXdata[7])<<24)+(((long)RXdata[6])<<16)+(((long)RXdata[5])<<8)+((long)RXdata[4]);
 
             P1OUT ^= BIT0; // toggle P1.0 LED
             newprint = 1; // print RXdata
@@ -157,7 +151,7 @@ __interrupt void USCI0TX_ISR(void) {
 
     } else if ((IFG2&UCB0TXIFG) && (IE2&UCB0TXIE)) { // USCI_B0 TX interrupt
         // put your TX code here.
-        UCB0TXBUF = (unsigned char)(timecnt>>((bytecnt%4)*8));
+        UCB0TXBUF = TXdata[bytecnt];
         bytecnt++;
 
         if(bytecnt == 8){

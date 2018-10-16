@@ -18,12 +18,8 @@ University of Illinois at Urbana-Champaign
 char newprint = 0;
 unsigned long timecnt = 0;
 
-char RXdata[8] = {0};
-char TXdata[8] = {0};
-char bytecnt = 0; // keeps count of which byte is received or sent
-long firstlong = 0;
-long secondlong = 0;
-
+char RXdata = 0;
+char TXdata = 0;
 
 void main(void) {
 
@@ -76,7 +72,7 @@ void main(void) {
 
         if (newprint)  {
             //P1OUT ^= 0x1;     // Blink LED
-            UART_printf("%ld %ld\n\r",firstlong, secondlong);
+            UART_printf("R: %d\n\r", RXdata);
             // UART_send(1,(float)timecnt/500);
             newprint = 0;
         }
@@ -92,7 +88,7 @@ __interrupt void Timer_A (void)
     timecnt++; // Keep track of time for main while loop.
 
     if ((timecnt%500) == 0) {
-        //newprint = 1;  // flag main while loop that .5 seconds have gone by.
+        newprint = 1;  // flag main while loop that .5 seconds have gone by.
     }
 
 }
@@ -138,36 +134,22 @@ __interrupt void USCI0TX_ISR(void) {
 
     if((IFG2&UCB0RXIFG) && (IE2&UCB0RXIE)) {    // USCI_B0 RX interrupt occurs here for I2C
         // put your RX code here.
-        RXdata[bytecnt] = UCB0RXBUF;
-        bytecnt++;
-        if(bytecnt == 8){
-            bytecnt = 0;
+        RXdata = UCB0RXBUF;
+        TXdata = RXdata;
+        P1OUT ^= BIT0; // toggle P1.0 LED
+        newprint = 1; // print RXdata
 
-            // assembling the 2 longs; lsb 8 bits sent first
-            firstlong = (((long)RXdata[3])<<24)+(((long)RXdata[2])<<16)+(((long)RXdata[1])<<8)+((long)RXdata[0]);
-            secondlong = (((long)RXdata[7])<<24)+(((long)RXdata[6])<<16)+(((long)RXdata[5])<<8)+((long)RXdata[4]);
-
-            P1OUT ^= BIT0; // toggle P1.0 LED
-            newprint = 1; // print RXdata
-
-            IE2 &= ~UCB0RXIE;
-            IE2 |= UCB0TXIE;
-        }
+        IE2 &= ~UCB0RXIE;
+        IE2 |= UCB0TXIE;
 
 
     } else if ((IFG2&UCB0TXIFG) && (IE2&UCB0TXIE)) { // USCI_B0 TX interrupt
         // put your TX code here.
-        UCB0TXBUF = (unsigned char)(timecnt>>((bytecnt%4)*8));
-        bytecnt++;
+        UCB0TXBUF = TXdata;
+        P1OUT ^= BIT1; // toggle P1.1 LED
 
-        if(bytecnt == 8){
-            bytecnt = 0;
-
-            P1OUT ^= BIT1; // toggle P1.1 LED
-
-            IE2 &= ~UCB0TXIE;
-            IE2 |= UCB0RXIE;
-        }
+        IE2 &= ~UCB0TXIE;
+        IE2 |= UCB0RXIE;
     }
 }
 
