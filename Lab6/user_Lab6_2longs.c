@@ -15,16 +15,13 @@ University of Illinois at Urbana-Champaign
 #include "UART.h"
 //#include "LS7266.h"
 
-#define MIN_SERVO_TBCCR1 1200
-#define MAX_SERVO_TBCCR1 5200
-
 char newprint = 0;
 unsigned long timecnt = 0;
 
 char RXdata[8] = {0};
 char TXdata[8] = {0};
 char bytecnt = 0; // keeps count of which byte is received or sent
-long firstlong = 0; // receives TBCCR1 value from OrangePi
+long firstlong = 0;
 long secondlong = 0;
 
 
@@ -63,16 +60,6 @@ void main(void) {
     TACCTL0 = CCIE;                           // Enable Timer A interrupt
     TACCR0 = 16000;                           // period = 1ms
     TACTL = TASSEL_2 + MC_1;                  // source SMCLK, up mode
-
-    // Timer B for PWM
-    TBCCR0 = 40000; // 50 Hz
-    TBCTL = TBSSEL_2 + MC_1 + ID_3; // SMCLK, up mode, divide by 8
-    TBCCTL1 = OUTMOD_7;
-    TBCCR1 = 0;
-
-    // P4.1 as TB1
-    P4SEL |= BIT4;
-    P4DIR |= BIT4;
 
 
     Init_UART(9600,1);  // Initialize UART for 9600 baud serial communication
@@ -159,8 +146,6 @@ __interrupt void USCI0TX_ISR(void) {
             // assembling the 2 longs; lsb 8 bits sent first
             firstlong = (((long)RXdata[3])<<24)+(((long)RXdata[2])<<16)+(((long)RXdata[1])<<8)+((long)RXdata[0]);
             secondlong = (((long)RXdata[7])<<24)+(((long)RXdata[6])<<16)+(((long)RXdata[5])<<8)+((long)RXdata[4]);
-
-            TBCCR1 = firstlong; // PWM according to OrangePi instruction
 
             P1OUT ^= BIT0; // toggle P1.0 LED
             newprint = 1; // print RXdata
