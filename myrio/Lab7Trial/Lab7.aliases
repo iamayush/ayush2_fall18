@@ -1,6 +1,6 @@
 [My Computer]
-My Computer = "192.168.1.91"
+My Computer = "192.168.1.95"
 
-[NI-myRIO-1900-mech37]
-NI-myRIO-1900-mech37 = "192.168.1.31"
+[NI-myRIO-1900-mech35]
+NI-myRIO-1900-mech35 = "192.168.1.35"
 
